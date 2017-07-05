@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 114801478673132864}
   - component: {fileID: 54595634040020746}
   - component: {fileID: 82573285262524080}
-  - component: {fileID: 114393185834281000}
+  - component: {fileID: 114109515821639000}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -215,7 +215,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!114 &114393185834281000
+--- !u!114 &114109515821639000
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -223,11 +223,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 1876326011898154}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bfdb99d5d236f4aecbde32b24f39fa7d, type: 3}
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerSpawnPoints: {fileID: 0}
-  reSpawn: 0
+  ownerId: 0
+  group: 0
+  OwnerShipWasTransfered: 0
+  prefixBackup: -1
+  synchronization: 0
+  onSerializeTransformOption: 3
+  onSerializeRigidBodyOption: 2
+  ownershipTransfer: 0
+  ObservedComponents:
+  - {fileID: 0}
+  ObservedComponentsFoldoutOpen: 1
+  viewIdField: 0
+  instantiationId: -1
+  currentMasterID: -1
+  isRuntimeInstantiated: 0
 --- !u!114 &114535997430009662
 MonoBehaviour:
   m_ObjectHideFlags: 1
